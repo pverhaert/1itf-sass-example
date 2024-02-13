@@ -179,6 +179,8 @@ $colors: (
 - Info: [sass:color](https://sass-lang.com/documentation/modules/color)
 
 ```scss
+@use 'sass:color';
+
 $red: #900;
 
 a {
