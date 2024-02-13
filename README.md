@@ -173,7 +173,7 @@ $colors: (
 
 - `sass:color` is one of the built-in modules in Sass.
 - The `sass:color` function provides a set of color manipulation functions.
-- You can use the `scale-color` function to adjust the lightness of a color.
+- You can use the `color.scale` function to adjust the lightness of a color.
     - a **positive** value for `$lightness` will make the color **lighter**.
     - a **negative** value for `$lightness` will make the color **darker**.
 - Info: [sass:color](https://sass-lang.com/documentation/modules/color)
@@ -187,7 +187,7 @@ a {
   color: $red;
 
   &:hover {
-    color: scale-color($red, $lightness: 20%);
+    color: color.scale($red, $lightness: 20%);
   }
 }
 ```
