@@ -27,9 +27,9 @@
 - [Nesting](#nesting)
 - [Partials](#partials)
 - [Mixins](#mixins)
-- [Maps](#maps)
-- [For Loops](#for-loops)
-- [sass:color (color.scale)](#sasscolor-colorscale)
+- [Maps](#maps-advanced)
+- [For Loops](#for-loops-advanced)
+- [sass:color (color.scale)](#sasscolor-colorscale-advanced)
 
 ### Variables
 
@@ -153,7 +153,7 @@ $colors: (
 }
 ```
 
-### For Loops (advanced but handy)
+### For Loops (advanced)
 
 - For loops allow you to generate styles based on a range of values.
 - You can use the `@for` directive to loop through a range of values.
