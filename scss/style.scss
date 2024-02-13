@@ -1,0 +1,13 @@
+// the main file that imports all the other files
+// order is important!
+// always import the variables first
+@import "vars";
+
+@import "reboot";
+@import "padding_margin";
+@import "flexbox";
+
+@import "components/alert";
+@import "components/button";
+
+

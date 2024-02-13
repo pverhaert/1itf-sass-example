@@ -1,0 +1,14 @@
+@use "sass:color";
+
+.btn {
+
+  @each $key, $value in $color-map {
+    &-#{$key} {
+
+      &:hover {
+
+      }
+    }
+  }
+}
+

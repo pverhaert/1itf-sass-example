@@ -1,0 +1,17 @@
+{
+  "name": "1ITF-SASS-Example",
+  "version": "1.0.0",
+  "description": "SASS",
+  "main": "index.js",
+  "homepage": "https://github.com/pverhaert/1itf-sass-example",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "sass": "sass scss:dist --watch",
+    "watch": "cd ./dist && live-server --port=8008"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
