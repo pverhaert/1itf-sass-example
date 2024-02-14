@@ -23,6 +23,7 @@
 
 ### Table of Contents
 
+- [Compile SCSS to CSS](#compile-scss-to-css)
 - [Variables](#variables)
 - [Nesting](#nesting)
 - [Partials](#partials)
@@ -30,6 +31,12 @@
 - [Maps](#maps-advanced)
 - [For Loops](#for-loops-advanced)
 - [sass:color (color.scale)](#sasscolor-colorscale-advanced)
+
+### Compile SCSS to CSS
+- Method 1: Use the `sass` command to watch and compile a single SCSS file to a single CSS file.
+  - `sass --watch input-dir/input.scss output-dir/output.css`
+- Method 3: Use the `sass` command to watch a directory of SCSS files and compile them to a directory of CSS files.
+  - `sass --watch input-dir:output-dir`
 
 ### Variables
 
