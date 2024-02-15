@@ -1,0 +1,15 @@
+@mixin padding-margin($property, $i) {
+  $value: $i * 0.25rem;
+  // 0 => $value 0rem, 1 => $value 0.25rem, 2 => $value 0.5rem, ... 12 => $value 3rem
+
+}
+
+@for $i from 0 through 12 {
+  .p {
+    @include padding-margin(padding, $i);
+  }
+
+  .m {
+    @include padding-margin(margin, $i);
+  }
+}
